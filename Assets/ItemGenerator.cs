@@ -68,14 +68,4 @@ public class ItemGenerator : MonoBehaviour
 
     }
 
-    public class DeleteTest : MonoBehaviour
-    {
-        //カメラに写らなくなったらアイテムの削除
-        private void OnBecameInvisible()
-        {
-            GameObject.Destroy(this.gameObject);
-        }
-
-    }
-
 }
